@@ -1,4 +1,4 @@
-# chatgpt-summary
+# ChatGPT Summary Browser Extension
 
 > This project was bootstrapped using the Extension.js React-TypeScript template.
 
