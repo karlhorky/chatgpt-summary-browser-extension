@@ -1,7 +1,9 @@
 chrome.action.onClicked.addListener(async (tab) => {
   if (tab.id) {
     const prompt = encodeURIComponent(
-      `Summarize ${tab.url} in 5 bullet points`,
+      `Summarize the following URL in 3-5 bullet points, even if you retrieve it from the web
+
+- ${tab.url}`,
     );
 
     await chrome.tabs.create({
