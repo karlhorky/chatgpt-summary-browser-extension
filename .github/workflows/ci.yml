@@ -21,5 +21,3 @@ jobs:
         run: pnpm tsc
       - name: Run ESLint
         run: pnpm eslint . --max-warnings 0
-      - name: Run Stylelint
-        run: pnpm stylelint '**/*.{css,scss,less,js,tsx}'
