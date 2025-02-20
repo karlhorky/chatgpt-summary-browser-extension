@@ -1,14 +1,14 @@
-import React from 'react'
-import reactLogo from '../public/react.png'
-import tailwindBg from '../public/tailwind_bg.png'
-import typescriptLogo from '../public/typescript.png'
-import tailwindLogo from '../public/tailwind.png'
-import chromeWindowBg from '../public/chromeWindow.png'
+import { useState } from 'react';
+import chromeWindowBg from '../public/chromeWindow.png';
+import reactLogo from '../public/react.png';
+import tailwindLogo from '../public/tailwind.png';
+import tailwindBg from '../public/tailwind_bg.png';
+import typescriptLogo from '../public/typescript.png';
 
 export default function ContentApp() {
-  const [isdialogOpen, setIsDialogOpen] = React.useState(true)
+  const [isDialogOpen, setIsDialogOpen] = useState(true);
 
-  if (!isdialogOpen) {
+  if (!isDialogOpen) {
     return (
       <div className="mx-auto p-6">
         <button
@@ -18,7 +18,7 @@ export default function ContentApp() {
           🧩 Open content script hint <span aria-hidden="true">+</span>
         </button>
       </div>
-    )
+    );
   }
 
   return (
@@ -83,5 +83,5 @@ export default function ContentApp() {
         </div>
       </div>
     </div>
-  )
+  );
 }

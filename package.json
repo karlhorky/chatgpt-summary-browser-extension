@@ -2,21 +2,29 @@
   "name": "chatgpt-summary",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "extension build",
     "dev": "extension dev",
     "start": "extension start"
   },
-  "dependencies": {},
   "devDependencies": {
     "@extension-create/develop": "1.8.0",
+    "@types/chrome": "^0.0.304",
+    "@types/node": "22.13.4",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
+    "eslint": "9.20.1",
+    "eslint-config-upleveled": "9.1.2",
     "extension": "1.8.0",
+    "prettier": "3.5.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "tailwindcss": "3.4.10",
     "typescript": "5.3.3"
   },
-  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247"
+  "packageManager": "pnpm@9.7.1+sha512.faf344af2d6ca65c4c5c8c2224ea77a81a5e8859cbc4e06b1511ddce2f0151512431dd19e6aff31f2c6a8f5f2aced9bd2273e1fed7dd4de1868984059d2c4247",
+  "dependencies": {
+    "globals": "^15.15.0"
+  }
 }
