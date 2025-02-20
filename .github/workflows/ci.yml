@@ -15,7 +15,7 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      - name: Build create-react-app app
+      - name: Build
         run: pnpm build
       - name: Run TypeScript Compiler
         run: pnpm tsc
