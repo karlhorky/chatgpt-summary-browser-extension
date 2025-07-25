@@ -28,6 +28,9 @@
   },
   "packageManager": "pnpm@10.13.1",
   "pnpm": {
+    "onlyBuiltDependencies": [
+      "unrs-resolver"
+    ],
     "ignoredBuiltDependencies": [
       "core-js-pure",
       "spawn-sync"
