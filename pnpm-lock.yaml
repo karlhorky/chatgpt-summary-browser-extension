@@ -17,7 +17,7 @@ importers:
         version: 1.8.0(browserslist@4.25.1)(type-fest@4.35.0)(typescript@5.9.3)
       '@types/chrome':
         specifier: ^0.1.0
-        version: 0.1.30
+        version: 0.1.31
       '@types/node':
         specifier: 24.10.1
         version: 24.10.1
@@ -1179,8 +1179,8 @@ packages:
   '@types/chrome@0.0.268':
     resolution: {integrity: sha512-7N1QH9buudSJ7sI8Pe4mBHJr5oZ48s0hcanI9w3wgijAlv1OZNUZve9JR4x42dn5lJ5Sm87V1JNfnoh10EnQlA==}
 
-  '@types/chrome@0.1.30':
-    resolution: {integrity: sha512-rcP14i+ip4s3SLG6JzNOWIDd+0i8Bg+kBslHl8d4g6m/e2kEbWnR90AtlOPUZj9ONVRbKxnQUqsInxFzXyqLdA==}
+  '@types/chrome@0.1.31':
+    resolution: {integrity: sha512-8fC9t02LRdqlSQ9bktaiLjP0NKujPNPaCKPfXxfIjZ35A9u831XY0pt0UEf2oup2SjcUEAaIYOB8mzJ51jhjmA==}
 
   '@types/connect-history-api-fallback@1.5.4':
     resolution: {integrity: sha512-n6Cr2xS1h4uAulPRdlw6Jl6s1oG8KrVilPN2yUITEs+K48EzMJJ3W1xy8K5eWuFvjp3R74AOIGSmp2UfBJ8HFw==}
@@ -6303,7 +6303,7 @@ snapshots:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
 
-  '@types/chrome@0.1.30':
+  '@types/chrome@0.1.31':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
