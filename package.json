@@ -9,7 +9,7 @@
     "start": "extension start"
   },
   "dependencies": {
-    "globals": "^16.0.0"
+    "globals": "^17.0.0"
   },
   "devDependencies": {
     "@extension-create/develop": "1.8.0",
