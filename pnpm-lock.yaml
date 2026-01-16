@@ -1022,10 +1022,12 @@ packages:
   '@extension-create/create@1.8.0':
     resolution: {integrity: sha512-hde5zdgnbVpnFV/63GKYDRHEL2x/8z02eo6gnh6+3bK9+0L2o/VoeYYFnVj+dpD9fTGlilYQZGCilEvr2J7DSQ==}
     engines: {node: '>=18'}
+    deprecated: Deprecated. Moved to @extension.js/create
 
   '@extension-create/develop@1.8.0':
     resolution: {integrity: sha512-MUFz1XQZNMaWynEdLVBxqUZxjbWtAr7ltFiQmbBekF1QYokQxK6rhq1VrdXsrrZ5avfNwE/ybaYy5u0XDtwVCg==}
     engines: {node: '>=18'}
+    deprecated: Deprecated. Moved to @extension.js/develop
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
