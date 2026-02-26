@@ -19,8 +19,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.36
       '@types/node':
-        specifier: 25.2.3
-        version: 25.2.3
+        specifier: 25.3.0
+        version: 25.3.0
       '@types/react':
         specifier: 19.2.14
         version: 19.2.14
@@ -32,7 +32,7 @@ importers:
         version: 9.39.2(jiti@1.21.6)
       eslint-config-upleveled:
         specifier: 9.4.7
-        version: 9.4.7(@babel/core@7.26.0)(@types/node@25.2.3)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.55.0(eslint@9.39.2(jiti@1.21.6))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@1.21.6))(globals@17.3.0)(typescript@5.9.3)
+        version: 9.4.7(@babel/core@7.26.0)(@types/node@25.3.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.55.0(eslint@9.39.2(jiti@1.21.6))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@1.21.6))(globals@17.3.0)(typescript@5.9.3)
       extension:
         specifier: 1.8.0
         version: 1.8.0(browserslist@4.28.1)(tslib@2.8.1)(type-fest@4.35.0)(typescript@5.9.3)
@@ -1397,8 +1397,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@25.2.3':
-    resolution: {integrity: sha512-m0jEgYlYz+mDJZ2+F4v8D1AyQb+QzsNqRuI7xg1VQX/KlKS0qT9r1Mo16yo5F/MtifXFgaofIFsdFMox2SxIbQ==}
+  '@types/node@25.3.0':
+    resolution: {integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==}
 
   '@types/qs@6.14.0':
     resolution: {integrity: sha512-eOunJqu0K1923aExK6y8p6fsihYEn/BYuQ4g0CxAAgFc4b/ZLN4CrsRZ55srTdqoiLzU2B2evC+apEIxprEzkQ==}
@@ -4668,8 +4668,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
   unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
@@ -6319,7 +6319,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -6631,16 +6631,16 @@ snapshots:
 
   '@types/adm-zip@0.5.5':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/bonjour@3.5.13':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/chrome@0.0.268':
     dependencies:
@@ -6655,11 +6655,11 @@ snapshots:
   '@types/connect-history-api-fallback@1.5.4':
     dependencies:
       '@types/express-serve-static-core': 4.19.8
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -6675,7 +6675,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.8':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       '@types/qs': 6.14.0
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -6699,7 +6699,7 @@ snapshots:
 
   '@types/http-proxy@1.17.17':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -6713,9 +6713,9 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@25.2.3':
+  '@types/node@25.3.0':
     dependencies:
-      undici-types: 7.16.0
+      undici-types: 7.18.2
 
   '@types/qs@6.14.0': {}
 
@@ -6733,7 +6733,7 @@ snapshots:
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/serve-index@1.9.4':
     dependencies:
@@ -6742,18 +6742,18 @@ snapshots:
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       '@types/send': 1.2.1
 
   '@types/sockjs@0.3.36':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/webextension-polyfill@0.10.7': {}
 
   '@types/ws@8.5.12':
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -7774,13 +7774,13 @@ snapshots:
       '@eslint/compat': 1.4.0(eslint@9.39.2(jiti@1.21.6))
       eslint: 9.39.2(jiti@1.21.6)
 
-  eslint-config-upleveled@9.4.7(@babel/core@7.26.0)(@types/node@25.2.3)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.55.0(eslint@9.39.2(jiti@1.21.6))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@1.21.6))(globals@17.3.0)(typescript@5.9.3):
+  eslint-config-upleveled@9.4.7(@babel/core@7.26.0)(@types/node@25.3.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.55.0(eslint@9.39.2(jiti@1.21.6))(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@1.21.6))(globals@17.3.0)(typescript@5.9.3):
     dependencies:
       '@babel/eslint-parser': 7.28.6(@babel/core@7.26.0)(eslint@9.39.2(jiti@1.21.6))
       '@eslint/compat': 2.0.2(eslint@9.39.2(jiti@1.21.6))
       '@next/eslint-plugin-next': 16.1.6
       '@stylistic/eslint-plugin': 5.8.0(eslint@9.39.2(jiti@1.21.6))
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       '@types/react': 19.2.14
       '@types/react-dom': 19.2.3(@types/react@19.2.14)
       '@typescript-eslint/eslint-plugin': 8.55.0(@typescript-eslint/parser@8.55.0(eslint@9.39.2(jiti@1.21.6))(typescript@5.9.3))(eslint@9.39.2(jiti@1.21.6))(typescript@5.9.3)
@@ -8780,7 +8780,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -8788,13 +8788,13 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -10352,7 +10352,7 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@7.16.0: {}
+  undici-types@7.18.2: {}
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
