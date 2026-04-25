@@ -35,6 +35,9 @@
     "ignoredBuiltDependencies": [
       "core-js-pure",
       "spawn-sync"
-    ]
+    ],
+    "overrides": {
+      "browser-extension-manifest-fields": "1.0.6"
+    }
   }
 }
