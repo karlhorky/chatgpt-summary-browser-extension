@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  browser-extension-manifest-fields: 1.0.6
-
 importers:
 
   .:
