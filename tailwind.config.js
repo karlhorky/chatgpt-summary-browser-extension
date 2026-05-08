@@ -2,9 +2,9 @@
 const config = {
   content: ['**/*.html', '**/*.tsx'],
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
-}
+  plugins: [],
+};
 
-export default config
+export default config;
