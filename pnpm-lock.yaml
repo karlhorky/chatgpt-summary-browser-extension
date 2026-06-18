@@ -17,28 +17,28 @@ importers:
         version: 1.8.0(browserslist@4.28.1)(tslib@2.8.1)(type-fest@4.35.0)(typescript@6.0.3)
       '@types/chrome':
         specifier: ^0.1.0
-        version: 0.1.42
+        version: 0.1.43
       '@types/node':
-        specifier: 25.9.1
-        version: 25.9.1
+        specifier: 25.9.3
+        version: 25.9.3
       '@types/react':
-        specifier: 19.2.16
-        version: 19.2.16
+        specifier: 19.2.17
+        version: 19.2.17
       '@types/react-dom':
         specifier: 19.2.3
-        version: 19.2.3(@types/react@19.2.16)
+        version: 19.2.3(@types/react@19.2.17)
       eslint:
         specifier: 10.4.1
         version: 10.4.1(jiti@1.21.6)
       eslint-config-upleveled:
         specifier: 10.0.0
-        version: 10.0.0(@babel/core@7.26.0)(@types/node@25.9.1)(@types/react-dom@19.2.3(@types/react@19.2.16))(@types/react@19.2.16)(@typescript-eslint/utils@8.58.2(eslint@10.4.1(jiti@1.21.6))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.4.1(jiti@1.21.6))(globals@17.6.0)(typescript@6.0.3)
+        version: 10.0.0(@babel/core@7.26.0)(@types/node@25.9.3)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(@typescript-eslint/utils@8.58.2(eslint@10.4.1(jiti@1.21.6))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.4.1(jiti@1.21.6))(globals@17.6.0)(typescript@6.0.3)
       extension:
         specifier: 1.8.0
         version: 1.8.0(browserslist@4.28.1)(tslib@2.8.1)(type-fest@4.35.0)(typescript@6.0.3)
       prettier:
-        specifier: 3.8.3
-        version: 3.8.3
+        specifier: 3.8.4
+        version: 3.8.4
       react:
         specifier: 19.2.7
         version: 19.2.7
@@ -1312,8 +1312,8 @@ packages:
   '@types/chrome@0.0.268':
     resolution: {integrity: sha512-7N1QH9buudSJ7sI8Pe4mBHJr5oZ48s0hcanI9w3wgijAlv1OZNUZve9JR4x42dn5lJ5Sm87V1JNfnoh10EnQlA==}
 
-  '@types/chrome@0.1.42':
-    resolution: {integrity: sha512-tdT2roFqGecZZDjA9fUEAINb2STxSPifHMDvY6EfRjNRCjdrs/0FwKt5RCIA9MKMd1arAYZZL3nwEkp6ZLZu2w==}
+  '@types/chrome@0.1.43':
+    resolution: {integrity: sha512-ukH/HhmR6ht+UTX3PLUWJxgJ/RQcK2Foj4lBzsF24SIWsXgqhGuXqjd8FFuwioPP7d/JUKLM4g8GZxw3F4HTcA==}
 
   '@types/connect-history-api-fallback@1.5.4':
     resolution: {integrity: sha512-n6Cr2xS1h4uAulPRdlw6Jl6s1oG8KrVilPN2yUITEs+K48EzMJJ3W1xy8K5eWuFvjp3R74AOIGSmp2UfBJ8HFw==}
@@ -1366,8 +1366,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@25.9.1':
-    resolution: {integrity: sha512-xfrlY7UD5rMJk3ZVJP8BNzS28J36YJg+xp+LPXV1TdWxr8uMH5A860QNxYDGQe/ylDSgjxE52Q9VnO7p75tJxg==}
+  '@types/node@25.9.3':
+    resolution: {integrity: sha512-603BddQMv3pUcr4U2dhujk83N2tTDVr/34wII2B6bJy6g+8WD6yUb11jszNs0gdi4PesVWl7ABt8nYMVpnLUcg==}
 
   '@types/qs@6.14.0':
     resolution: {integrity: sha512-eOunJqu0K1923aExK6y8p6fsihYEn/BYuQ4g0CxAAgFc4b/ZLN4CrsRZ55srTdqoiLzU2B2evC+apEIxprEzkQ==}
@@ -1380,8 +1380,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.16':
-    resolution: {integrity: sha512-esJiCAnl0kfpNdE69f3So4WJUXy95dLZydX0KwK46riIHDzHM7O9Vtf9xCHW0PXIqvgqNrswl522kA/5yx+F4w==}
+  '@types/react@19.2.17':
+    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
 
   '@types/retry@0.12.2':
     resolution: {integrity: sha512-XISRgDJ2Tc5q4TRqvgJtzsRkFYNJzZrhTdtMoGVBttwzzQJkPnS3WWTFc7kuDRoPtPakl+T+OfdEUjYJj7Jbow==}
@@ -1870,6 +1870,7 @@ packages:
   babel-preset-modern-browser-extension@0.7.0:
     resolution: {integrity: sha512-J/6LNXDuaUUR5/2X/G6lWUK21GgQ8FUmi0tLhPsL6E0vmorkT+whMsAhdpFt0cgE7PcXZIsMOyd1x+erholGZw==}
     engines: {node: '>=18'}
+    deprecated: No longer maintained. Modern browser extension development moved to Extension.js (https://extension.js.org)
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -3998,8 +3999,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.8.3:
-    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
+  prettier@3.8.4:
+    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4830,6 +4831,7 @@ packages:
   webpack-browser-extension-polyfill@2.0.2:
     resolution: {integrity: sha512-au74OwDidMwiHEaX7hkwwCC1Gdiiyv6dj7jxDJnU1mmGYZOanuP0FEH6UiKVE7lbHL3nE0sblwBxFQNBuAED8w==}
     engines: {node: '>=10'}
+    deprecated: No longer maintained. Use webextension-polyfill with your bundler, or Extension.js (https://extension.js.org)
     peerDependencies:
       webpack: ^5.00.0
 
@@ -4880,12 +4882,14 @@ packages:
   webpack-run-chrome-extension@1.3.2:
     resolution: {integrity: sha512-SBL09QwzzWX0nXROsH8B5oX3qplQxMHT/fdWhsZocEt9b5iI7Rl7vpJW//axBbZ277O0htAWLNaYeCQGx+GUOw==}
     engines: {node: '>=18'}
+    deprecated: No longer maintained. This project evolved into Extension.js — npm install extension (https://extension.js.org)
     peerDependencies:
       webpack: ^5.00.0
 
   webpack-run-edge-extension@1.3.1:
     resolution: {integrity: sha512-enp3WpCc1OMk3Lofxxj1nNI7j2Qdt1P32ZSaRNe96TurqNexCaJdhIWAWTIcwPZQUv3qch0ca5CF+Lkf8IO2gQ==}
     engines: {node: '>=18'}
+    deprecated: No longer maintained. This project evolved into Extension.js — npm install extension (https://extension.js.org)
     peerDependencies:
       webpack: ^5.00.0
 
@@ -6312,7 +6316,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -6621,23 +6625,23 @@ snapshots:
 
   '@types/adm-zip@0.5.5':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/bonjour@3.5.13':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/chrome@0.0.268':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
 
-  '@types/chrome@0.1.42':
+  '@types/chrome@0.1.43':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
@@ -6645,11 +6649,11 @@ snapshots:
   '@types/connect-history-api-fallback@1.5.4':
     dependencies:
       '@types/express-serve-static-core': 4.19.8
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -6667,7 +6671,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.8':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
       '@types/qs': 6.14.0
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
@@ -6691,7 +6695,7 @@ snapshots:
 
   '@types/http-proxy@1.17.17':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -6705,7 +6709,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@25.9.1':
+  '@types/node@25.9.3':
     dependencies:
       undici-types: 7.24.6
 
@@ -6713,11 +6717,11 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react-dom@19.2.3(@types/react@19.2.16)':
+  '@types/react-dom@19.2.3(@types/react@19.2.17)':
     dependencies:
-      '@types/react': 19.2.16
+      '@types/react': 19.2.17
 
-  '@types/react@19.2.16':
+  '@types/react@19.2.17':
     dependencies:
       csstype: 3.2.3
 
@@ -6725,7 +6729,7 @@ snapshots:
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/serve-index@1.9.4':
     dependencies:
@@ -6734,18 +6738,18 @@ snapshots:
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
       '@types/send': 1.2.1
 
   '@types/sockjs@0.3.36':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/webextension-polyfill@0.10.7': {}
 
   '@types/ws@8.5.12':
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -7825,15 +7829,15 @@ snapshots:
       '@eslint/compat': 2.0.2(eslint@10.4.1(jiti@1.21.6))
       eslint: 10.4.1(jiti@1.21.6)
 
-  eslint-config-upleveled@10.0.0(@babel/core@7.26.0)(@types/node@25.9.1)(@types/react-dom@19.2.3(@types/react@19.2.16))(@types/react@19.2.16)(@typescript-eslint/utils@8.58.2(eslint@10.4.1(jiti@1.21.6))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.4.1(jiti@1.21.6))(globals@17.6.0)(typescript@6.0.3):
+  eslint-config-upleveled@10.0.0(@babel/core@7.26.0)(@types/node@25.9.3)(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(@typescript-eslint/utils@8.58.2(eslint@10.4.1(jiti@1.21.6))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint@10.4.1(jiti@1.21.6))(globals@17.6.0)(typescript@6.0.3):
     dependencies:
       '@babel/eslint-parser': 7.28.6(@babel/core@7.26.0)(eslint@10.4.1(jiti@1.21.6))
       '@eslint/compat': 2.0.2(eslint@10.4.1(jiti@1.21.6))
       '@next/eslint-plugin-next': 16.1.6
       '@stylistic/eslint-plugin': 5.9.0(eslint@10.4.1(jiti@1.21.6))
-      '@types/node': 25.9.1
-      '@types/react': 19.2.16
-      '@types/react-dom': 19.2.3(@types/react@19.2.16)
+      '@types/node': 25.9.3
+      '@types/react': 19.2.17
+      '@types/react-dom': 19.2.3(@types/react@19.2.17)
       '@typescript-eslint/eslint-plugin': 8.56.1(@typescript-eslint/parser@8.56.1(eslint@10.4.1(jiti@1.21.6))(typescript@6.0.3))(eslint@10.4.1(jiti@1.21.6))(typescript@6.0.3)
       '@typescript-eslint/parser': 8.56.1(eslint@10.4.1(jiti@1.21.6))(typescript@6.0.3)
       comment-json: 4.5.1
@@ -8844,7 +8848,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -8852,13 +8856,13 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 25.9.1
+      '@types/node': 25.9.3
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -9598,7 +9602,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.8.3: {}
+  prettier@3.8.4: {}
 
   process-nextick-args@2.0.1: {}
 
