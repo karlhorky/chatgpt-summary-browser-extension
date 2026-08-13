@@ -18,7 +18,7 @@
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
     "eslint": "10.8.0",
-    "eslint-config-upleveled": "10.0.0",
+    "eslint-config-upleveled": "10.0.1",
     "extension": "1.8.0",
     "prettier": "3.9.6",
     "react": "19.2.8",
